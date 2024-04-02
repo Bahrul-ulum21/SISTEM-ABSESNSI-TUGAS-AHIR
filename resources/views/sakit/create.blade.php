@@ -96,38 +96,7 @@
         $("#tgl_izin_dari,#tgl_izin_sampai").change(function(e) {
             loadjumlahhari();
         });
-
-
-
-
-
-
-
-
-        // $("#tgl_izin").change(function(e) {
-        //     var tgl_izin = $(this).val();
-        //     $.ajax({
-        //         type: 'POST'
-        //         , url: '/presensi/cekpengajuanizin'
-        //         , data: {
-        //             _token: "{{ csrf_token() }}"
-        //             , tgl_izin: tgl_izin
-        //         }
-        //         , cache: false
-        //         , success: function(respond) {
-        //             if (respond == 1) {
-        //                 Swal.fire({
-        //                     title: 'Oops !'
-        //                     , text: 'Anda Sudah Melakukan Input Pengjuan Izin Pada Tanggal Tersebut !'
-        //                     , icon: 'warning'
-        //                 }).then((result) => {
-        //                     $("#tgl_izin").val("");
-        //                 });
-        //             }
-        //         }
-        //     });
-        // });
-
+        
         $("#frmIzin").submit(function() {
             var tgl_izin_dari = $("#tgl_izin_dari").val();
             var tgl_izin_sampai = $("#tgl_izin_sampai").val();

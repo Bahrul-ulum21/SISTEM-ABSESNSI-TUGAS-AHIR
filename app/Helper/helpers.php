@@ -32,7 +32,7 @@ function hitungjamterlambatdesimal($jam_masuk, $jam_presensi)
     $mterlambat = $menitterlambat <= 9 ? "0" . $menitterlambat : $menitterlambat;
 
 
-    $desimalterlambat = ROUND(($menitterlambat / 60), 2);
+    $desimalterlambat = $jamterlambat + ROUND(($menitterlambat / 60), 2);
     return  $desimalterlambat;
 }
 
