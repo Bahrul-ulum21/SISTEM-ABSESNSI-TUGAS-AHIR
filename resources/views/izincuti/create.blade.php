@@ -67,7 +67,7 @@
                         <span>
                             <strong>
                                 <ion-icon name="cloud-upload-outline" role="img" class="md hydrated" aria-label="cloud upload outline"></ion-icon>
-                                <i>Tap to Upload SID</i>
+                                <i>Upload Pengajuan</i>
                             </strong>
                         </span>
                     </label>
