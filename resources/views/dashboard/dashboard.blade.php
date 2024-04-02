@@ -252,8 +252,10 @@
                                 $jmlterlambat = hitungjamterlambat($jadwal_jam_masuk, $jam_presensi);
                                 $jmlterlambatdesimal = hitungjamterlambatdesimal($jadwal_jam_masuk, $jam_presensi);
                                 @endphp
-                                <span class="danger">Terlambat {{ $jmlterlambat }}
-                                    {{-- ({{ $jmlterlambatdesimal }} Jam) --}}
+                                <span style="color: #206bc4">status : </span>
+                                <span class="danger">Terlambat
+                                     {{-- {{ $jmlterlambat }}
+                                    ({{ $jmlterlambatdesimal }} Jam) --}}
                                 </span>
                                 @else
                                 <span style="color: #206bc4">Tepat Waktu</span>
