@@ -65,13 +65,16 @@
                 <div class="row align-items-end">
                     <div class="col-sm-8">
                         <h3 class="mb-4"><div class="row gx-3">
-                    </div>Rekap Presensi Hari Ini {{ date('d-m-Y', strtotime(date('Y-m-d'))) }}🎉</h3>
+                    	</div>Rekap Presensi Hari Ini {{ date('d-m-Y', strtotime(date('Y-m-d'))) }}🎉</h3>
+						<h4> 
+
+							إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا - فَإِذَا فَرَغْتَ فَٱنصَبْ
+						</h4>
                         <p>
-                            You have sold
-                            <span class="text-success fw-bold">65%</span> more
-                            products than last year.
+							Sesungguhnya Bersama Kesulitan Itu Ada Kemudahan,
+							Maka Apabila kamu Telah Selesai (Dari Suatu Urusan), Tetaplah Bekerja Keras (Untuk Urusan Yang Lain). QS. Al-Insyirah : 6-7
                         </p>
-                        <div class="mt-4 d-flex flex-wrap gap-3">
+                        {{-- <div class="mt-4 d-flex flex-wrap gap-3">
                             <div class="d-flex align-items-center">
                                 <div class="icon-box lg grd-info-light rounded-5 me-3">
                                     <i class="bi bi-bag text-info fs-3"></i>
@@ -90,7 +93,7 @@
                                     <p class="m-0 text-secondary">Last Year</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                     <div class="col-sm-4">
                         <img src="{{ asset('assetss/images/sales.svg')}}" class="congrats-img" alt="Bootstrap Gallery" />
